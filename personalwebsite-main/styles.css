@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Top-Up Section */
+.topup-section, .summary-section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#game-select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.topup-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.topup-button {
+    padding: 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.topup-button:hover {
+    background-color: #45a049;
+}
+
+/* Summary Section */
+#summary-text {
+    margin-bottom: 1rem;
+}
+
+#checkout-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

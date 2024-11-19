@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Top-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Game Top-Up Platform</h1>
+    </header>
+    <main>
+        <section class="topup-section">
+            <h2>Select Your Game</h2>
+            <select id="game-select">
+                <option value="">-- Select a Game --</option>
+                <option value="Game1">Game 1</option>
+                <option value="Game2">Game 2</option>
+                <option value="Game3">Game 3</option>
+            </select>
+            
+            <h2>Select Top-Up Amount</h2>
+            <div class="topup-options">
+                <button class="topup-button" data-amount="100">100 Credits</button>
+                <button class="topup-button" data-amount="200">200 Credits</button>
+                <button class="topup-button" data-amount="500">500 Credits</button>
+                <button class="topup-button" data-amount="1000">1000 Credits</button>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Summary</h2>
+            <p id="summary-text">No game or amount selected yet.</p>
+            <button id="checkout-btn" disabled>Proceed to Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Game Top-Up. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
